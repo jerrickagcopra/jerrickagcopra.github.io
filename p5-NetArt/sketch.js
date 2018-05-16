@@ -17,9 +17,6 @@ function setup() {
 //  console.log(clouds.width/2);
 //  console.log(bg.width);
 //  console.log(bg.height);
-
-// Move the canvas so it’s inside our <div id="sketch-holder">.
-//  canvas.parent('sketch-holder');
 }
 
 function draw() {
