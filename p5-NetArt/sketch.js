@@ -15,6 +15,9 @@ flan = loadImage('Th06FlandreSprite.png');
 tenshi = loadImage('Th125TenshiSprite.png');
 aya = loadImage('Th10AyaSprite.png');
 momiji = loadImage('Th125Momizi01.png');
+ichirin = loadImage('Th12IchirinSprite.png');
+
+reimuback = loadImage('Th14ReimuBackSprite.png');
 }
 
 function setup() {
@@ -37,4 +40,7 @@ function draw() {
   image(tenshi,450,0);
   image(aya,330,100);
   image(momiji,285,100);
+  image(ichirin,1200,25);
+
+  Cursor(reimuback,0,0);
 }
