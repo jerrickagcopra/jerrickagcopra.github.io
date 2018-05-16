@@ -15,6 +15,9 @@ tenshi = loadImage('Th125TenshiSprite.png');
 aya = loadImage('Th10AyaSprite.png');
 momiji = loadImage('Th125Momizi01.png');
 ichirin = loadImage('Th12IchirinSprite.png');
+sakuya = loadImage('Th08SakuyaSprite.png');
+cirno = loadImage('Th09CirnoSprite.png');
+
 
 reimuback = loadImage('Th14ReimuBackSprite.png');
 }
@@ -40,5 +43,7 @@ function draw() {
   image(aya,330,100);
   image(momiji,285,100);
   image(ichirin,1200,25);
+  image(sakuya,925,450);
+  image(cirno,340,395);
 
 }
