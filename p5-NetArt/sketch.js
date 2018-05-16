@@ -1,34 +1,28 @@
-
-
-let bg, clouds;
-var mario;
-let x = -225;
-let speed = 5;
+var canvas;
 
 function preload() {
-  bg = loadImage('Th135_Hakurei_Shrine.png');
-  clouds = loadImage('superMarioClouds_0.png');
-//  mario = loadImage('superMarioClouds_0.png');
-
+  reimu = createImg("https://en.touhouwiki.net/images/1/1d/Th155Reimu.png");
 }
 
 function setup() {
-  createCanvas(1280,720);
-//  console.log(clouds.width/2);
-//  console.log(bg.width);
-//  console.log(bg.height);
+  bg = loadImage('Th135_Hakurei_Shrine.png');
+  canvas = createCanvas(window.innerWidth, window.innerHeight);
+;
+  reimu.position(0,0);
+  reimu.size(reimu.width/2,reimu.height/2);
 }
 
 function draw() {
-  background(200);
-  image(bg,0,0,0,0);
-  image(clouds, x, 10, clouds.width/2, clouds.height/2);
-//  image(mario,0,0);
-  x = x + speed;
+  background(bg);
+//  fill(255);
+//  ellipse(width/2,height/2,100,100);
 
-  if (x >= width) {
-    speed = -speed;
-  } else if (x < -225) {
-    speed = -speed;
-  }
 }
+
+window.onresize = function() {
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+  canvas.size(w,h);
+  width = w;
+  height = h;
+};
