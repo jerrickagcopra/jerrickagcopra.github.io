@@ -6,14 +6,14 @@ let x = -225;
 let speed = 5;
 
 function preload() {
-  bg = loadImage('overworld_bg.png');
+  bg = loadImage('Th135_Hakurei_Shrine.png');
   clouds = loadImage('superMarioClouds_0.png');
-  mario = loadGif('Suwakoflapflap.gif');
+  mario = loadImage('superMarioClouds_0.png');
 
 }
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(1280,720);
 //  console.log(clouds.width/2);
 //  console.log(bg.width);
 //  console.log(bg.height);
