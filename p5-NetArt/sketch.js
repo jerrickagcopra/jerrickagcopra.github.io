@@ -8,7 +8,7 @@ let speed = 5;
 function preload() {
   bg = loadImage('Th135_Hakurei_Shrine.png');
   clouds = loadImage('superMarioClouds_0.png');
-  mario = loadImage('superMarioClouds_0.png');
+//  mario = loadImage('superMarioClouds_0.png');
 
 }
 
@@ -23,7 +23,7 @@ function draw() {
   background(200);
   image(bg,0,0,0,0);
   image(clouds, x, 10, clouds.width/2, clouds.height/2);
-  image(mario,0,0);
+//  image(mario,0,0);
   x = x + speed;
 
   if (x >= width) {
