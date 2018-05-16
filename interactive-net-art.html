@@ -6,7 +6,11 @@
      <title>Jerrick Agcopra | Interactive Net Art</title>
 	 <link rel="stylesheet" href="styles/main.css">
 	 <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> 
-	 <script type="text/javascript" src="processing.js"></script>
+	 <script src="p5-NetArt/libraries/p5.js"></script>
+	<script src="p5-NetArt/libraries/p5.dom.js"></script>
+	<script src="p5-NetArt/libraries/p5.sound.js"></script>
+	<script src="p5-NetArt/libraries/p5.gif.js"></script>
+	<script src="p5-NetArt/sketch.js"></script>
 	 <style>body {
 		background-color:Violet;
 		}
@@ -27,7 +31,9 @@
 	 <form><input class="MyButton" type="button" value="Net Art Project" onclick="window.location.href='net-art-project.html'" /></form>
 	 </center>
 	 <h1>Something</h1>
-	 <!-- <center><canvas data-processing-sources="myProgram.pde"></canvas></center> -->
+	 <div id="sketch-holder">
+      <!-- Our sketch will go here! -->
+    </div>
      <p>Placeholder text.</p>
    </body>
 </html>
