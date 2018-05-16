@@ -1,7 +1,6 @@
 var canvas;
 
 function preload() {
-//  reimu = createImg("https://en.touhouwiki.net/images/1/1d/Th155Reimu.png");;
 bg = loadImage('Th135_Hakurei_Shrine.png');
 reimu = loadImage('Th08ReimuSprite.png');
 rumia = loadImage('Th095RumiaSprite.png');
@@ -42,5 +41,4 @@ function draw() {
   image(momiji,285,100);
   image(ichirin,1200,25);
 
-  Cursor(reimuback,0,0);
 }
